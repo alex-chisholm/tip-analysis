@@ -13,7 +13,7 @@ ui.include_css("styles.css")
 bill_rng = (min(tips.total_bill), max(tips.total_bill))
 
 # Add page title and sidebar
-ui.page_opts(title="Restaurant tipping", fillable=True)
+ui.page_opts(title="Restaurant Tip Analysis", fillable=True)
 
 with ui.sidebar(open="desktop"):
     ui.input_slider(
